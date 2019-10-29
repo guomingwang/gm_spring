@@ -1,11 +1,16 @@
 package com.gm_spring.formework.context;
 
+import com.gm_spring.formework.annotation.GMAutowired;
+import com.gm_spring.formework.annotation.GMController;
+import com.gm_spring.formework.annotation.GMService;
 import com.gm_spring.formework.beans.GMBeanWrapper;
 import com.gm_spring.formework.beans.config.GMBeanDefinition;
+import com.gm_spring.formework.beans.config.GMBeanPostProcessor;
 import com.gm_spring.formework.context.support.GMBeanDefinitionReader;
 import com.gm_spring.formework.context.support.GMDefaultListableBeanFactory;
 import com.gm_spring.formework.core.GMBeanFactory;
 
+import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -88,6 +93,71 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
     //1.保留原来的 OOP 关系
     //2.需要对它进行扩展、增强（为了以后的 AOP 打基础）
     public Object getBean(String beanName) throws Exception {
+        GMBeanDefinition beanDefinition = super.beanDefinitionMap.get(beanName);
+        try {
+            //生成通知事件
+            GMBeanPostProcessor beanPostProcessor = new GMBeanPostProcessor();
+            Object instance = instantiateBean(beanDefinition);
+            if (null == instance) {
+                return null;
+            }
+            //在实例初始化以前调用一次
+            beanPostProcessor.postProcessBeforeInitialization(instance, beanName);
+            GMBeanWrapper beanWrapper = new GMBeanWrapper(instance);
+            this.factoryBeanInstanceCache.put(beanName, beanWrapper);
+            //在实例化初始化以后调用一次
+            beanPostProcessor.postProcessAfterInitialization(instance, beanName);
+            populateBean(beanName, instance);
+            //通过这样调用，相当于给我们自己留有了可操作的空间
+            return this.factoryBeanInstanceCache.get(beanName).getWrappedInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private void populateBean(String beanName, Object instance) {
+        Class clazz = instance.getClass();
+        if (!(clazz.isAnnotationPresent(GMController.class) || clazz.isAnnotationPresent(GMService.class))) {
+            return;
+        }
+        Field[] fields = clazz.getDeclaredFields();
+        for (Field field :
+                fields) {
+            if (!field.isAnnotationPresent(GMAutowired.class)) {
+                continue;
+            }
+            GMAutowired autowired = field.getAnnotation(GMAutowired.class);
+            String autowiredBeanName = autowired.value().trim();
+            if ("".equals(autowiredBeanName)) {
+                autowiredBeanName = field.getType().getName();
+            }
+            field.setAccessible(true);
+            try {
+                field.set(instance, this.factoryBeanInstanceCache.get(autowiredBeanName).getWrappedInstance());
+            } catch (IllegalAccessException e) {
+                //e.printStackTrace();
+            }
+        }
+    }
+
+    //传一个 BeanDefinition，就返回一个实例 Bean
+    private Object instantiateBean(GMBeanDefinition beanDefinition) {
+        Object instance = null;
+        String className = beanDefinition.getBeanClassName();
+        try {
+            //因为根据 Class 才能确定一个类是否有实例
+            if (this.factoryBeanObjectCache.containsKey(className)) {
+                instance = this.factoryBeanObjectCache.get(className);
+            } else {
+                Class<?> clazz = Class.forName(className);
+                instance = clazz.newInstance();
+                this.factoryBeanObjectCache.put(beanDefinition.getFactoryBeanName(), instance);
+            }
+            return instance;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return null;
     }
 
