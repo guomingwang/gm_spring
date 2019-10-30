@@ -35,3 +35,5 @@ Wsrc/main/java/com/gm_spring/formework/context/support/GMAbstractApplicationCont
 Wsrc/main/java/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.java,2\0\20328385cc022b297eda8d56c9d615b66a85a316
 w
 Gsrc/main/java/com/gm_spring/formework/context/GMApplicationContext.java,7\2\724052bacaa286330e202f399dad8eae9656ea12
+{
+Ksrc/main/java/com/gm_spring/formework/beans/config/GMBeanPostProcessor.java,b\c\bc1ba0e282dc3564742d1578e78aa126a3674631
