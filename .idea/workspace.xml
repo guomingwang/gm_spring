@@ -6,106 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809669e7-dc12-4683-a34c-f71408811770" name="Default Changelist" comment="完成 MVC 模块的功能">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0dd195dfb48eab6b3fdc93feed492d91e900c49e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ef97869bcbe05999a2963a86e99fc58187f5f06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/279afc121b47f33f8502330e83e3ff247e56d573" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30a111637b3d73a6c029b373340bcaa304484480" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a4116f0592e28bb0aa0dab0615347c970e7b0c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ec4f9ed58e7a2009f13ee9b9a86e81292a9363f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78f61853b4f18b300c9a401beb0461e641742264" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bbf68a298c23201f14de176d23d10dabd8b395d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5b4483d67147e23be8f8cc637c6b6009862d4dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0010eb86f60489360873e4f19d3c710247bf90e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e15ecfb393821986a1325afdd1316e08c448d315" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/action/MyAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/action/PageAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/service/IModifyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/service/IQueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/service/impl/ModifyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/service/impl/QueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/annotation/GMAutowired.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/annotation/GMController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/annotation/GMRequestMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/annotation/GMRequestParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/annotation/GMService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/GMBeanWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/config/GMBeanDefinition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/config/GMBeanPostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/GMApplicationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/GMApplicationContextAware.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/support/GMAbstractApplicationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/support/GMBeanDefinitionReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/core/GMBeanFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/core/GMFactoryBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/GMHandlerAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/GMHandlerMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/GMModelAndView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/GMView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/GMViewResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/first.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/gm_spring/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/action/MyAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/action/PageAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/service/IModifyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/service/IQueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/service/impl/ModifyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/service/impl/QueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/annotation/GMAutowired.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/annotation/GMController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/annotation/GMRequestMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/annotation/GMRequestParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/annotation/GMService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/GMBeanWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/config/GMBeanDefinition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/config/GMBeanPostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/GMApplicationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/GMApplicationContextAware.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/support/GMAbstractApplicationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/support/GMBeanDefinitionReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/core/GMBeanFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/core/GMFactoryBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/GMHandlerAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/GMHandlerMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/GMModelAndView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/GMView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/GMViewResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/first.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/lib/lombok-1.16.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/first.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/gm_spring/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20328385cc022b297eda8d56c9d615b66a85a316" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20328385cc022b297eda8d56c9d615b66a85a316" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/724052bacaa286330e202f399dad8eae9656ea12" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/724052bacaa286330e202f399dad8eae9656ea12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc1ba0e282dc3564742d1578e78aa126a3674631" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc1ba0e282dc3564742d1578e78aa126a3674631" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8766cf250c4d7905f902bc6294783355cd451f9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8766cf250c4d7905f902bc6294783355cd451f9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d44a036659f1a63c0f7816ee3cfbbf0e40219cb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d44a036659f1a63c0f7816ee3cfbbf0e40219cb7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8f2cbd836569d22ccad09dbc4333c6c77067bf9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8f2cbd836569d22ccad09dbc4333c6c77067bf9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="809669e7-dc12-4683-a34c-f71408811770" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/demo/service/impl/ModifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/demo/service/impl/ModifyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/config/GMBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/config/GMBeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/support/GMBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/support/GMBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/config/GMBeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/config/GMBeanDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/GMApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/GMApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/support/GMBeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/support/GMBeanDefinitionReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/config/GMBeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/config/GMBeanDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/GMApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/GMApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/support/GMBeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/support/GMBeanDefinitionReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,24 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1048#1066#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="261">
+              <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,41 +43,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="335">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1058#1076#0" expanded="true" />
+                <element signature="e#2753#2754#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
+                <element signature="e#2844#2845#0" expanded="true" />
+                <element signature="e#2866#2867#0" expanded="true" />
+                <element signature="e#2934#2935#0" expanded="true" />
+                <element signature="e#2956#2957#0" expanded="true" />
+                <element signature="e#3038#3039#0" expanded="true" />
+                <element signature="e#3060#3061#0" expanded="true" />
+                <element signature="e#3130#3131#0" expanded="true" />
+                <element signature="e#3152#3153#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContextAware.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/core/GMBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/core/GMFactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -556,7 +438,7 @@
       <workItem from="1573000742206" duration="4269000" />
       <workItem from="1573092297115" duration="4721000" />
       <workItem from="1573097063989" duration="1273000" />
-      <workItem from="1573098357833" duration="7171000" />
+      <workItem from="1573098357833" duration="8306000" />
     </task>
     <task id="LOCAL-00001" summary="完成 DI 模块的功能">
       <created>1572353080993</created>
@@ -572,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572406340138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="debug">
+      <created>1573112488992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573112488992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38744000" />
+    <option name="totallyTimeSpent" value="39879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -592,7 +481,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36363637" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.18851571" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35536295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -602,7 +491,7 @@
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.17768148" />
       <window_info anchor="bottom" id="MyBatis Log" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.66305524" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.70097506" />
@@ -663,7 +552,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="完成 DI 模块的功能" />
     <MESSAGE value="完成 MVC 模块的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 MVC 模块的功能" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1121,16 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/core/GMBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1145,13 +1025,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="261">
+          <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1048#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1058#1076#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2844#2845#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3038#3039#0" expanded="true" />
+            <element signature="e#3060#3061#0" expanded="true" />
+            <element signature="e#3130#3131#0" expanded="true" />
+            <element signature="e#3152#3153#0" expanded="true" />
           </folding>
         </state>
       </provider>
