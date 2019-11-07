@@ -11,10 +11,8 @@ public class GMHandlerMapping {
 
     //目标方法所在的 controller 对象
     private Object controller;
-
     //URL 对应的目标方法
     private Method method;
-
     //URL 的封装
     private Pattern pattern;
 

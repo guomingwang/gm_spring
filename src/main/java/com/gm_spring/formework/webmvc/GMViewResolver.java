@@ -14,10 +14,11 @@ import java.util.Locale;
  */
 public class GMViewResolver {
 
+    //后缀
     private final String DEFAULT_TEMPLATE_SUFFIX = ".html";
-
+    //文件
     private File templateRootDir;
-
+    //
     private String viewName;
 
     public GMViewResolver(String templateRoot) {
