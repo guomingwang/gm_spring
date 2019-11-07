@@ -27,17 +27,17 @@ import java.util.regex.Pattern;
 @Slf4j
 public class GMDispatcherServlet extends HttpServlet {
 
+    //初始参数
     private final String LOCATION = "contextConfigLocation";
-
     //读者可以思考一下这样设计的经典之处
     //GMHandlerMapping 最核心的设计，也是最经典的
     //它直接干掉了 Struts、Webwork 等 MVC 框架
     private List<GMHandlerMapping> handlerMappings = new ArrayList<GMHandlerMapping>();
-
+    //
     private Map<GMHandlerMapping, GMHandlerAdapter> handlerAdapters = new HashMap<GMHandlerMapping, GMHandlerAdapter>();
-
+    //
     private List<GMViewResolver> viewResolvers = new ArrayList<GMViewResolver>();
-
+    //GMApplicationContext
     private GMApplicationContext context;
 
     @Override

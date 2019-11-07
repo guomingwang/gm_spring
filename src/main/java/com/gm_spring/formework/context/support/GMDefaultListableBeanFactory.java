@@ -11,6 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class GMDefaultListableBeanFactory extends GMAbstractApplicationContext {
 
-    //存储注册信息的 BeanDefinition
+    //存储注册信息的 BeanDefinition；map<factoryBeanName, beanDefinition>
     protected final Map<String, GMBeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, GMBeanDefinition>();
 }

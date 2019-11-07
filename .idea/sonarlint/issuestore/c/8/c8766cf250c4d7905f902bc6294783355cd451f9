@@ -1,5 +1,35 @@
 
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®´š¥8úê¢¹á-
-Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8§¤¢¹á-
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üª¼í8úê¢¹á-
-Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8§¤¢¹á-
+Msquid:S1172”".Remove this unused method parameter "context".(†¾×8€Ä®Òá-
+wsquid:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(†šÖ8Âå´ñã-
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ö¥«Òá-
+wsquid:S00116"SRename this field "LOCATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ€ƒ¦øÿÿÿÿ8§×»Ñá-
+9squid:S3626V"Remove this redundant jump.(ûÁİ…8¸±ÿÑá-
+Lsquid:S1172a".Remove this unused method parameter "context".(üòĞğ8ÀúÑá-
+usquid:S2226'"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(§¡íH8Ä×ËÑá-
+Lsquid:S1172]".Remove this unused method parameter "context".(ôŸØ8÷ºúÑá-
+esquid:UnusedPrivateMethod”"8Remove this unused private "initHandlerAdapters" method.(†¾×8†”®Òá-
+Qsquid:S1172e".Remove this unused method parameter "context".(ÄûÓøıÿÿÿÿ8ËùÑá-
+9squid:S3626^"Remove this redundant jump.(ûÁİ…8ñ–€Òá-
+9squid:S3626Z"Remove this redundant jump.(ûÁİ…8±àşÑá-
+isquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(¥»„Ó8­™—Òá-
+Qsquid:S1172U".Remove this unused method parameter "context".(Áº“Úüÿÿÿÿ8µ÷úÑá-
+Gsquid:S1989µ"(Add a "try/catch" block for "getWriter".(ÿß­8ñæÈÒá-
+tsquid:S1450)"VRemove the "context" field and declare it as a local variable in the relevant methods.(Ñùø“8êãÑÑá-
+vsquid:S2226%"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(†šÖ8Ô’ÈÑá-
+Isquid:S1989­"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8¼ôšÒá-
+vsquid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(§¡íH8Âå´ñã-
+Vsquid:S2589Ô"7Remove this expression which always evaluates to "true"(Û³™Û8ƒ¥õÒá-
+9squid:S3626f"Remove this redundant jump.(ûÁİ…8ÏéÿÑá-
+Dsquid:S1170"!Make this final field static too.(ˆ€ƒ¦øÿÿÿÿ8§×»Ñá-
+vsquid:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢Ğªs8Âå´ñã-
+9squid:S3626b"Remove this redundant jump.(ûÁİ…8³µşÑá-
+Lsquid:S1172Y".Remove this unused method parameter "context".(Ï©£“8âÚúÑá-
+Isquid:S1989­"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8¼ôšÒá-
+isquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(Çµ÷Ÿ8ÑˆÒá-
+usquid:S2226#"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¢Ğªs8Ô’ÈÑá-
+Gsquid:S1148¹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤ ÔÒá-
+Lsquid:S1481¥"-Remove this unused "template" local variable.(Ò×ƒ‡8¤™ÅÒá-
+_squid:S2259Æ"@A "NullPointerException" could be thrown; "ha" is nullable here.(º¤ïô8”×½Ÿä-
+Xsquid:S1989Á"4Add a "try/catch" block for "porcessDispatchResult".(ÇôÓßÿÿÿÿÿ8”×½Ÿä-
+Dsquid:S1989Æ"%Add a "try/catch" block for "handle".(º¤ïô8”×½Ÿä-
+Rsquid:S1989È"4Add a "try/catch" block for "porcessDispatchResult".(Ì¾g8”×½Ÿä-

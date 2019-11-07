@@ -1,6 +1,8 @@
 
-Fsquid:S1148)"#Use a logger to log this exception.(А╔╘Е¤    8ч╜ъ║с-
-Fsquid:S1148Y"#Use a logger to log this exception.(А╔╘Е¤    8м▐Т╗с-
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(╔▄Я╘¤    8Єж╖Єу-
+Fsquid:S1148["#Use a logger to log this exception.(А╔╘Е¤    8м▐Т╗с-
 Fsquid:S1148#"#Use a logger to log this exception.(А╔╘Е¤    8№╛ш║с-
-?squid:S1170"!Make this final field static too.(ет╚▐8╣хр║с-
+Fsquid:S1148)"#Use a logger to log this exception.(А╔╘Е¤    8ч╜ъ║с-
+|squid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(╛═П╟¤    8Єж╖Єу-
 usquid:S00116"VRename this field "SCAN_PAKAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ет╚▐8╣хр║с-
+?squid:S1170"!Make this final field static too.(ет╚▐8╣хр║с-

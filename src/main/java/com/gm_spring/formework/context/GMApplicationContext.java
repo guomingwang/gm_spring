@@ -22,13 +22,12 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class GMApplicationContext extends GMDefaultListableBeanFactory implements GMBeanFactory {
 
+    //配置文件所在路径的数组
     private String[] configLocations;
-
+    //Bean 定义读取器
     private GMBeanDefinitionReader reader;
-
     //单例的 IoC 容器缓存
     private Map<String, Object> factoryBeanObjectCache = new ConcurrentHashMap<String, Object>();
-
     //通用的 IoC 容器
     private Map<String, GMBeanWrapper> factoryBeanInstanceCache = new ConcurrentHashMap<String, GMBeanWrapper>();
 
@@ -134,7 +133,9 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
             }
             field.setAccessible(true);
             try {
-                field.set(instance, this.factoryBeanInstanceCache.get(autowiredBeanName).getWrappedInstance());
+                GMBeanWrapper beanWrapper = this.factoryBeanInstanceCache.get(autowiredBeanName);
+                System.out.println("this.factoryBeanInstanceCache.size: " + this.factoryBeanInstanceCache.size());
+                field.set(instance, beanWrapper.getWrappedInstance());
             } catch (IllegalAccessException e) {
                 //e.printStackTrace();
             }

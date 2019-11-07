@@ -18,10 +18,10 @@ import java.util.Properties;
  */
 public class GMBeanDefinitionReader {
 
+    //扫描包路径下的类的全类名列表
     private List<String> registyBeanClasses = new ArrayList<String>();
-
+    //属性配置
     private Properties config = new Properties();
-
     //固定配置文件中的key，相对于 XML 的规范
     private final String SCAN_PAKAGE = "scanPackage";
 

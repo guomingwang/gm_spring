@@ -1,6 +1,7 @@
 package com.gm_spring.demo.service.impl;
 
 import com.gm_spring.demo.service.IModifyService;
+import com.gm_spring.formework.annotation.GMService;
 
 /**
  * 增、删、改业务
@@ -8,6 +9,7 @@ import com.gm_spring.demo.service.IModifyService;
  * @author WangGuoMing
  * @since 2019/10/30
  */
+@GMService
 public class ModifyService implements IModifyService {
 
     /**
