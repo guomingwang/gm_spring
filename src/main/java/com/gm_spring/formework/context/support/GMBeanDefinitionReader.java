@@ -78,10 +78,12 @@ public class GMBeanDefinitionReader {
                 if (beanClass.isInterface()) {
                     continue;
                 }
+                //类，key 存简单类名
                 result.add(doCreateBeanDefinition(toLowerFirstCase(beanClass.getSimpleName()), beanClass.getName()));
                 Class<?>[] interfaces = beanClass.getInterfaces();
                 for (Class<?> i :
                         interfaces) {
+                    //接口，key 存全类名
                     result.add(doCreateBeanDefinition(i.getName(), beanClass.getName()));
                 }
             }

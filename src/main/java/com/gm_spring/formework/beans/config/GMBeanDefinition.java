@@ -9,11 +9,11 @@ package com.gm_spring.formework.beans.config;
  */
 public class GMBeanDefinition {
 
-    //原生 Bean 的全类名
+    //bean 的全类名
     private String beanClassName;
-    //标记是否延时加载
+    //延时加载标识
     private boolean lazyInit = false;
-    //保存 beanName 在 IoC 容器中存储的 key
+    //beanName 在 IoC 容器中存储的 key
     private String factoryBeanName;
 
     public String getBeanClassName() {

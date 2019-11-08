@@ -9,6 +9,7 @@ import com.gm_spring.formework.beans.config.GMBeanPostProcessor;
 import com.gm_spring.formework.context.support.GMBeanDefinitionReader;
 import com.gm_spring.formework.context.support.GMDefaultListableBeanFactory;
 import com.gm_spring.formework.core.GMBeanFactory;
+import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Field;
 import java.util.List;
@@ -20,15 +21,16 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author WangGuoMing
  * @since 2019/10/29
  */
+@Slf4j
 public class GMApplicationContext extends GMDefaultListableBeanFactory implements GMBeanFactory {
 
     //配置文件所在路径的数组
     private String[] configLocations;
     //Bean 定义读取器
     private GMBeanDefinitionReader reader;
-    //单例的 IoC 容器缓存
+    //单例的 IoC 容器缓存， map<factoryBeanName, instance>
     private Map<String, Object> factoryBeanObjectCache = new ConcurrentHashMap<String, Object>();
-    //通用的 IoC 容器
+    //通用的 IoC 容器， map<factoryBeanName, beanWrapper>
     private Map<String, GMBeanWrapper> factoryBeanInstanceCache = new ConcurrentHashMap<String, GMBeanWrapper>();
 
     public GMApplicationContext(String... configLocations) {
@@ -106,6 +108,7 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
             this.factoryBeanInstanceCache.put(beanName, beanWrapper);
             //在实例化初始化以后调用一次
             beanPostProcessor.postProcessAfterInitialization(instance, beanName);
+            //依赖注入
             populateBean(beanName, instance);
             //通过这样调用，相当于给我们自己留有了可操作的空间
             return this.factoryBeanInstanceCache.get(beanName).getWrappedInstance();
@@ -134,8 +137,11 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
             field.setAccessible(true);
             try {
                 GMBeanWrapper beanWrapper = this.factoryBeanInstanceCache.get(autowiredBeanName);
-                System.out.println("this.factoryBeanInstanceCache.size: " + this.factoryBeanInstanceCache.size());
-                field.set(instance, beanWrapper.getWrappedInstance());
+                try {
+                    field.set(instance, beanWrapper.getWrappedInstance());
+                } catch (NullPointerException e) {
+                    log.error("实例化 bean，并注入依赖，而被注入的依赖还没被实例化，所以抛出 nullPointerException");
+                }
             } catch (IllegalAccessException e) {
                 //e.printStackTrace();
             }
@@ -149,10 +155,12 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
         try {
             //因为根据 Class 才能确定一个类是否有实例
             if (this.factoryBeanObjectCache.containsKey(className)) {
+                //全类名？
                 instance = this.factoryBeanObjectCache.get(className);
             } else {
                 Class<?> clazz = Class.forName(className);
                 instance = clazz.newInstance();
+                //简单类名或全类名？
                 this.factoryBeanObjectCache.put(beanDefinition.getFactoryBeanName(), instance);
             }
             return instance;
