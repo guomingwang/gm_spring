@@ -14,7 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -154,7 +157,7 @@ public class GMDispatcherServlet extends HttpServlet {
     }
 
     private void initViewResolvers(GMApplicationContext context) {
-        //在页面中输入 Http://location/first.html
+        //在页面中输入 Http://location/first.template
         //解决页面名字和模板文件关联的问题
         String templateRoot = context.getConfig().getProperty("templateRoot");
         String templateRootPath = this.getClass().getClassLoader().getResource(templateRoot).getFile();
@@ -175,10 +178,6 @@ public class GMDispatcherServlet extends HttpServlet {
         try {
             doDispatch(req, resp);
         } catch (Exception e) {
-            resp.getWriter().write("<font size=\"25\" color=\"blue\">500 Exception</font><br/>Details:<br/>"
-                    + Arrays.toString(e.getStackTrace()).replaceAll("\\[|\\]", "")
-                    .replaceAll("\\s", "\r\n")
-                    + "<font color=\"green\"><i>Copyright@WangGuoMing</i></font>");
             e.printStackTrace();
         }
     }
@@ -187,7 +186,10 @@ public class GMDispatcherServlet extends HttpServlet {
         //根据用户请求的 URL 来获得一个 Handler
         GMHandlerMapping handler = getHandler(req);
         if (handler == null) {
-            porcessDispatchResult(req, resp, new GMModelAndView("404"));
+            Map<String, String> model = new HashMap<>();
+            model.put("code", "404");
+            model.put("message", "页面去火星了");
+            porcessDispatchResult(req, resp, new GMModelAndView("404", model));
             return;
         }
         GMHandlerAdapter ha = getHandlerAdapter(handler);
@@ -206,14 +208,12 @@ public class GMDispatcherServlet extends HttpServlet {
         if (this.viewResolvers.isEmpty()) {
             return;
         }
-        if (this.viewResolvers != null) {
-            for (GMViewResolver viewResolver :
-                    this.viewResolvers) {
-                GMView view = viewResolver.resolveViewName(mv.getViewName(), null);
-                if (view != null) {
-                    view.render(mv.getModel(), request, response);
-                    return;
-                }
+        for (GMViewResolver viewResolver :
+                this.viewResolvers) {
+            GMView view = viewResolver.resolveViewName(mv.getViewName(), null);
+            if (view != null) {
+                view.render(mv.getModel(), request, response);
+                return;
             }
         }
     }

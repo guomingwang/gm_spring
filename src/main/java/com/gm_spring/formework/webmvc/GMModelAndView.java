@@ -1,5 +1,6 @@
 package com.gm_spring.formework.webmvc;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -15,6 +16,7 @@ public class GMModelAndView {
     private Map<String, ?> model;
 
     public GMModelAndView(String viewName) {
+        this.model = new HashMap<>();
         this.viewName = viewName;
     }
 

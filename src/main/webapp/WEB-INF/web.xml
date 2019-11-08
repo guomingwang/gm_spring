@@ -12,7 +12,7 @@
     <servlet-class>com.gm_spring.formework.webmvc.servlet.GMDispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:application.properties</param-value>
+        <param-value>classpath:config/application.properties</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>

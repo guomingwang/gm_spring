@@ -59,6 +59,7 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
 
     //只处理非延时加载的情况
     private void doAutowrited() {
+        //控制反转 IOC
         for (Map.Entry<String, GMBeanDefinition> beanDefinitionEntry :
                 super.beanDefinitionMap.entrySet()) {
             String beanName = beanDefinitionEntry.getKey();
@@ -69,6 +70,13 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
                     e.printStackTrace();
                 }
             }
+        }
+        //依赖注入 DI
+        for (Map.Entry<String, GMBeanWrapper> factoryBeanInstanceCacheEntry :
+                this.factoryBeanInstanceCache.entrySet()) {
+            String factoryBeanName = factoryBeanInstanceCacheEntry.getKey();
+            GMBeanWrapper instance = factoryBeanInstanceCacheEntry.getValue();
+            populateBean(factoryBeanName, instance);
         }
     }
 
@@ -109,7 +117,7 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
             //在实例化初始化以后调用一次
             beanPostProcessor.postProcessAfterInitialization(instance, beanName);
             //依赖注入
-            populateBean(beanName, instance);
+            //populateBean(beanName, instance);
             //通过这样调用，相当于给我们自己留有了可操作的空间
             return this.factoryBeanInstanceCache.get(beanName).getWrappedInstance();
         } catch (Exception e) {
@@ -141,9 +149,10 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
                     field.set(instance, beanWrapper.getWrappedInstance());
                 } catch (NullPointerException e) {
                     log.error("实例化 bean，并注入依赖，而被注入的依赖还没被实例化，所以抛出 nullPointerException");
+                    e.printStackTrace();
                 }
             } catch (IllegalAccessException e) {
-                //e.printStackTrace();
+                e.printStackTrace();
             }
         }
     }

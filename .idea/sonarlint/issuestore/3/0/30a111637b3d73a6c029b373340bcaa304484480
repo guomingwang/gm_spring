@@ -1,11 +1,12 @@
 
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(é·áÛ8€õÖÔá-
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8¿Õ»Ôá-
-{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8³¾Ôá-
-Jsquid:S1172".Remove this unused method parameter "request".(×­ÓÂ8³¾Ôá-
-isquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ü×ùùÿÿÿÿ8À­åÔá-
-isquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¬õ‡şÿÿÿÿ8À­åÔá-
-isquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(úìê‰ıÿÿÿÿ8À­åÔá-
-isquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(’ñğşÿÿÿÿ8À­åÔá-
-isquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ˆ´ÁÜøÿÿÿÿ8À­åÔá-
-<squid:S2639" Correct this regular expression.(ëåÃ¶8À­åÔá-
+ksquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(’ñğşÿÿÿÿ8À­åÔá-
+>squid:S2639" Correct this regular expression.(ëåÃ¶8À­åÔá-
+}squid:S1149+"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8³¾Ôá-
+ksquid:S5361!"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¬õ‡şÿÿÿÿ8À­åÔá-
+jsquid:S00112*"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8¿Õ»Ôá-
+isquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(é·áÛ8€õÖÔá-
+ksquid:S5361 "HReplace this call to "replaceAll()" by a call to the "replace()" method.(úìê‰ıÿÿÿÿ8À­åÔá-
+asquid:S47190">Replace charset name argument with StandardCharsets.ISO_8859_1(òÅÆıÿÿÿÿ8˜˜¹§ä-
+Lsquid:S1172)".Remove this unused method parameter "request".(×­ÓÂ8³¾Ôá-
+ksquid:S5361""HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ü×ùùÿÿÿÿ8À­åÔá-
+ksquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ˆ´ÁÜøÿÿÿÿ8À­åÔá-

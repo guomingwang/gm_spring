@@ -23,13 +23,13 @@ public class PageAction {
     @GMAutowired
     IQueryService queryService;
 
-    @GMRequestMapping("/first.html")
+    @GMRequestMapping("/first.template")
     public GMModelAndView query(@GMRequestParam("teacher") String teacher) {
         String result = queryService.query(teacher);
         Map<String, Object> model = new HashMap<String, Object>();
         model.put("teacher", teacher);
         model.put("data", result);
         model.put("token", "123456");
-        return new GMModelAndView("first.html", model);
+        return new GMModelAndView("first.template", model);
     }
 }
