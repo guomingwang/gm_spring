@@ -1,7 +1,7 @@
 
-esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Γ€Θώ8„²—Τα-
-squid:S00116"bRename this field "DEFAULT_TEMPLATE_SUFFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ψϊ«ς8ρθΤα-
-?squid:S1170"!Make this final field static too.(Ψϊ«ς8ρθΤα-
-Ksquid:S1172"-Remove this unused method parameter "locale".(Γ€Θώ8ϋΒ™Τα-
-Csquid:S1075$"&Remove this hard-coded path-delimiter.(ΐόΎt8ϋΒΤα-
+?squid:S1170"!Make this final field static too.(‹ί‰8ρθΤα-
 ¤%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Γ€Θώ8°–¨δ-
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Γ€Θώ8„²—Τα-
+Ksquid:S1172"-Remove this unused method parameter "locale".(Γ€Θώ8ϋΒ™Τα-
+squid:S00116"bRename this field "DEFAULT_TEMPLATE_SUFFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ί‰8ρθΤα-
+Csquid:S1075$"&Remove this hard-coded path-delimiter.(ΐόΎt8ϋΒΤα-

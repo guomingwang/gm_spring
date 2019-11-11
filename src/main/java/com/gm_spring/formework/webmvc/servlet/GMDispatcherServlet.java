@@ -67,8 +67,14 @@ public class GMDispatcherServlet extends HttpServlet {
         //GMHandlerMapping 用来保存 Controller 中配置的 RequestMapping 和 Method 的对应关系
         //通过 HandlerMapping 将请求映射到处理器
         initHandlerMappings(context);
+        /**
+         * 我们自己会实现
+         */
         //HandlerAdapters 用来动态匹配 Method 参数，包括类转换、动态赋值
+        //通过 HandlerAdapter 进行多类型的参数动态匹配
+        initHandlerAdapters(context);
         //如果执行过程中遇到异常，则交给 HandlerExceptionResolver 来解析
+        initHandlerExceptionResolvers(context);
         //直接将请求解析到视图名
         initReuqestToViewNameTranslator(context);
         /**
@@ -87,6 +93,10 @@ public class GMDispatcherServlet extends HttpServlet {
     }
 
     private void initLocaleResolver(GMApplicationContext context) {
+        return;
+    }
+
+    private void initHandlerExceptionResolvers(GMApplicationContext context) {
         return;
     }
 

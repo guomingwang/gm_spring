@@ -1,5 +1,5 @@
 
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÕŒ‚øýÿÿÿÿ8õÎ£Óá-
 Wsquid:S2130b"9Use "Integer.parseInt" for this string-to-int conversion.(ö£™½8Ã‹òÓá-
 usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÕŒ‚øýÿÿÿÿ8¤ÄÖÓá-
-jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÕŒ‚øýÿÿÿÿ8õÎ£Óá-
 wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ïç±8–µº©ä-
