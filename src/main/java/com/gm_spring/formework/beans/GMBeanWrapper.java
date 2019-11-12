@@ -10,8 +10,9 @@ public class GMBeanWrapper {
 
     private Class<?> wrappedClass;
 
-    public GMBeanWrapper(Object wrappedInstance) {
+    public GMBeanWrapper(Object wrappedInstance, Class<?> wrappedClass) {
         this.wrappedInstance = wrappedInstance;
+        this.wrappedClass = wrappedClass;
     }
 
     public Object getWrappedInstance() {

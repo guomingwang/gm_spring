@@ -112,7 +112,7 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
             }
             //在实例初始化以前调用一次
             beanPostProcessor.postProcessBeforeInitialization(instance, beanName);
-            GMBeanWrapper beanWrapper = new GMBeanWrapper(instance);
+            GMBeanWrapper beanWrapper = new GMBeanWrapper(instance, beanDefinition.getClass());
             this.factoryBeanInstanceCache.put(beanName, beanWrapper);
             //在实例化初始化以后调用一次
             beanPostProcessor.postProcessAfterInitialization(instance, beanName);
@@ -127,7 +127,8 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
     }
 
     private void populateBean(String beanName, Object instance) {
-        Class clazz = instance.getClass();
+        GMBeanWrapper wrapper = (GMBeanWrapper) instance;
+        Class clazz = wrapper.getWrappedClass();
         if (!(clazz.isAnnotationPresent(GMController.class) || clazz.isAnnotationPresent(GMService.class))) {
             return;
         }
@@ -146,7 +147,8 @@ public class GMApplicationContext extends GMDefaultListableBeanFactory implement
             try {
                 GMBeanWrapper beanWrapper = this.factoryBeanInstanceCache.get(autowiredBeanName);
                 try {
-                    field.set(instance, beanWrapper.getWrappedInstance());
+                    field.set(wrapper, beanWrapper.getWrappedInstance());
+                    log.info("DI: " + field.getName() + " --> " + clazz.getName());
                 } catch (NullPointerException e) {
                     log.error("实例化 bean，并注入依赖，而被注入的依赖还没被实例化，所以抛出 nullPointerException");
                     e.printStackTrace();
