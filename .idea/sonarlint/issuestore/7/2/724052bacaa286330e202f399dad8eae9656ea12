@@ -1,14 +1,14 @@
 
-Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œé¯ºá-
-Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌÕÆä-
 esquid:S00112S"FDefine and throw a dedicated exception instead of using a generic one.(†ıï»8œŠ²ºá-
-wsquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(›»§×8Ê•¥ñã-
-jsquid:S00112W"FDefine and throw a dedicated exception instead of using a generic one.(ÇÜÀ©ûÿÿÿÿ8óÏººá-
-Ysquid:S1141•"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¼æ®Åä-
 nsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(‘úÃÿøÿÿÿÿ8—ÍÆä-
 Gsquid:S1148š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤ëŞÆä-
-Fsquid:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ú¹ô»á-
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌÕÆä-
+wsquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(›»§×8Ê•¥ñã-
 |squid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ÷Îºÿÿÿÿÿ8Ê•¥ñã-
+jsquid:S00112W"FDefine and throw a dedicated exception instead of using a generic one.(ÇÜÀ©ûÿÿÿÿ8óÏººá-
+Fsquid:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ú¹ô»á-
+Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œé¯ºá-
 Ssquid:S1172"/Remove this unused method parameter "beanName".(œ–èÿÿÿÿÿ8•ıö»á-
+Ysquid:S1141•"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¼æ®Åä-
 Gsquid:S1148³"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ä©¼á-
 Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¨û”ºá-

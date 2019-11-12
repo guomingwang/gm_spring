@@ -6,21 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809669e7-dc12-4683-a34c-f71408811770" name="Default Changelist" comment="debug">
+    <list default="true" id="809669e7-dc12-4683-a34c-f71408811770" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/724052bacaa286330e202f399dad8eae9656ea12" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/724052bacaa286330e202f399dad8eae9656ea12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78f61853b4f18b300c9a401beb0461e641742264" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78f61853b4f18b300c9a401beb0461e641742264" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8766cf250c4d7905f902bc6294783355cd451f9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8766cf250c4d7905f902bc6294783355cd451f9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d44a036659f1a63c0f7816ee3cfbbf0e40219cb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d44a036659f1a63c0f7816ee3cfbbf0e40219cb7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/action/MyAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/action/MyAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/action/PageAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/demo/action/PageAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/GMBeanWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/beans/GMBeanWrapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/GMApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gm_spring/com/gm_spring/formework/context/GMApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/GMBeanWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/GMBeanWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/action/MyAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/action/MyAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/action/PageAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/demo/action/PageAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/GMBeanWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/beans/GMBeanWrapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/GMApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gm_spring/WEB-INF/classes/com/gm_spring/formework/context/GMApplicationContext.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,11 +29,57 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="114" column="115" selection-start-line="114" selection-start-column="115" selection-end-line="114" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1335#1358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/GMBeanWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/config/GMBeanDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/demo/service/impl/QueryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,186 +201,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gm_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gm_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="formework" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -499,6 +356,8 @@
       <workItem from="1573438162818" duration="410000" />
       <workItem from="1573438605611" duration="1156000" />
       <workItem from="1573439783866" duration="2070000" />
+      <workItem from="1573539543496" duration="315000" />
+      <workItem from="1573539864883" duration="1595000" />
     </task>
     <task id="LOCAL-00001" summary="完成 DI 模块的功能">
       <created>1572353080993</created>
@@ -556,17 +415,23 @@
       <option name="project" value="LOCAL" />
       <updated>1573439214735</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="debug">
+      <created>1573539780724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573539780724</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66126000" />
+    <option name="totallyTimeSpent" value="68036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7605634" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7605634" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" sideWeight="0.23943663" side_tool="true" weight="0.20042644" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -577,7 +442,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22210184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36363637" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1971831" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.54279524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -813,13 +678,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/annotation/GMAutowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/annotation/GMController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -958,16 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/demo/service/impl/QueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,17 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/config/GMBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/support/GMDefaultListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1188,33 +1025,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
+    <entry file="jar://F:/java/jdk1.8/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="440">
+          <caret line="3367" column="34" selection-start-line="3367" selection-start-column="34" selection-end-line="3367" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/config/GMBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/beans/GMBeanWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="124">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/demo/service/impl/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/webmvc/servlet/GMDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gm_spring/formework/context/GMApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="114" column="115" selection-start-line="114" selection-start-column="115" selection-end-line="114" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1335#1358#0" expanded="true" />
